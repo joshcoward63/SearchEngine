@@ -12,7 +12,7 @@ Last Name       | First Name      | GitHub Username    | Scrum Role
 Allen           | Jeff            | Thejeffreyallen    | TBDDeveloper
 Coward          | Josh            | joshcoward63       | TBDDeveloper
 TBD             | TBD             | TBD                | TBDProduct Owner
-TBD             | TBD             | TBD                | TBD
+Uzabel          | Jacob           | J-Uzabel           | TBDDevloper
 
 ## :eyes: :memo: Scrum Linter Reports:
 Access the [Scrum Linter Report](http://cs.boisestate.edu/~bdit/ScrumLinter/CS471S21ScrumLinterReports/CS471-S21-Team5_23LcCEVnShlPpOmYdSHGEUzRGhuwJxvp3GQ1Glsk/). A new report will be automatically generated every few hours.
