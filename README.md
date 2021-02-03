@@ -10,7 +10,7 @@ Build a search engine application (the domain of the search is still undecided)
 Last Name       | First Name      | GitHub Username    | Scrum Role
 --------------- | --------------- | ------------------ | ---------------
 Allen           | Jeff            | Thejeffreyallen    | TBDDeveloper
-TBD             | TBD             | TBD                | TBDScrum Master
+Coward          | Jos             | joshcoward63       | TBDDeveloper
 TBD             | TBD             | TBD                | TBDProduct Owner
 TBD             | TBD             | TBD                | TBD
 
