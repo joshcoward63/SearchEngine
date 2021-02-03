@@ -11,7 +11,7 @@ Last Name       | First Name      | GitHub Username    | Scrum Role
 --------------- | --------------- | ------------------ | ---------------
 Allen           | Jeff            | Thejeffreyallen    | TBDDeveloper
 Coward          | Josh            | joshcoward63       | TBDDeveloper
-TBD             | TBD             | TBD                | TBDProduct Owner
+Rahmani         | Zahra           | ZahraRahmani2      | TBDDeveloper
 TBD             | TBD             | TBD                | TBD
 
 ## :eyes: :memo: Scrum Linter Reports:
