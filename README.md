@@ -1,15 +1,15 @@
-## Team Name: TBD
+## Team Name: Team 5
 
-## Project Name: TBD
+## Project Name: Search Engine
 
 ## Project Description:
-TBD (e.g., build a TBD app for TBD)
+Build a search engine application (the domain of the search is still undecided)
 
 ## Team Members:
 
 Last Name       | First Name      | GitHub Username    | Scrum Role
 --------------- | --------------- | ------------------ | ---------------
-TBD             | TBD             | TBD                | TBDDeveloper
+Allen           | Jeff            | Thejeffreyallen    | TBDDeveloper
 TBD             | TBD             | TBD                | TBDScrum Master
 TBD             | TBD             | TBD                | TBDProduct Owner
 TBD             | TBD             | TBD                | TBD
