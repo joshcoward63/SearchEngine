@@ -11,7 +11,7 @@ Last Name       | First Name      | GitHub Username    | Scrum Role
 --------------- | --------------- | ------------------ | ---------------
 Allen           | Jeff            | Thejeffreyallen    | Scrum Master
 Coward          | Josh            | joshcoward63       | Product Owner
-Uzabel          | Jacob           | J-Uzabel           | Devloper
+Uzabel          | Jacob           | J-Uzabel           | Developer
 Rahmani         | Zahra           | ZahraRahmani2      | Developer
 
 ## :eyes: :memo: Scrum Linter Reports:
