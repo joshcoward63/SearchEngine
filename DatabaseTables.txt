@@ -1,1 +1,15 @@
+# Tables:
+1. Query table for storing all the queries the user enters including date and time your query was processed.
+2. when you click on a link the links needs to be recorded, so we keep track of the most clicked sites such as a cache.
+3. The crawled data itself needs to be stored as a txt files.
+4. data can be then pre-processed using Apache lucene to remove stop words and to stem words.
+5. Store the search indexes for all the sites or data files. This is for mapping the queries with the sites and files.
+The indexes needs to be updated dynamically and frequently.
+6. Store all the rankings for the website and data files and this needs to be updated frequently and dynamically.
 
+Based on the article, How to Create a Search Engine Software for Your Business?
+"Even though it is a kind of database, it is important to remember that this is not the main data storage,
+ neither it is a relational database. The index structure must be organized in a way that is convenient for the search."
+
+Steps to be considered for creating a search engine:
+https://gearheart.io/blog/how-create-search-engine-software-your-business/
