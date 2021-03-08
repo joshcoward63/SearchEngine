@@ -32,18 +32,18 @@ def get_all_urls( links):
     return links
 
 #Inital list of urls grabbed from seed
-first_set = get_first("https://www.boisestate.edu/coen-cs/")
+# first_set = get_first("https://www.boisestate.edu/coen-cs/")
 
 #List of all urls grabbed from all the links in the first_set including the original links
-urls = get_all_urls(first_set)
-print(len(first_set))
-print(len(urls))
+# urls = get_all_urls(first_set)
+# print(len(first_set))
+# print(len(urls))
 
 #The following creates a list of links where depth is equal to the number of times we will grab links from the given
 #For example a depth of 1 takes the original list of urls and grabs all the urls on each one of those links and adds them to a list
 #A depth of 2 would then take the list or urls outputted by the depth 1 iteration and grab all the urls from all of those links 
-depth = 1
-for i in range(depth):
-    urls = get_all_urls(urls)
+# depth = 1
+# for i in range(depth):
+#     urls = get_all_urls(urls)
 
-print(len(urls))
+# print(len(urls))
