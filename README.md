@@ -11,8 +11,9 @@ Last Name       | First Name      | GitHub Username    | Scrum Role
 --------------- | --------------- | ------------------ | ---------------
 Allen           | Jeff            | Thejeffreyallen    | Scrum Master
 Coward          | Josh            | joshcoward63       | Product Owner
-Uzabel          | Jacob           | J-Uzabel           | Developer
 Rahmani         | Zahra           | ZahraRahmani2      | Developer
+Uzabel          | Jacob           | J-Uzabel           | Developer
+
 
 ## :eyes: :memo: Scrum Linter Reports:
 Access the [Scrum Linter Report](http://cs.boisestate.edu/~bdit/ScrumLinter/CS471S21ScrumLinterReports/CS471-S21-Team5_23LcCEVnShlPpOmYdSHGEUzRGhuwJxvp3GQ1Glsk/). A new report will be automatically generated every few hours.
