@@ -1,4 +1,4 @@
-# Tables:
+Tables:
 1. Query table for storing all the queries the user enters including date and time your query was processed.
 2. when you click on a link the links needs to be recorded, so we keep track of the most clicked sites such as a cache.
 3. The crawled data itself needs to be stored as a txt files.
