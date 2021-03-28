@@ -1,5 +1,5 @@
 
-# import all the libraries
+# import all the required libraries
 import requests
 from bs4 import BeautifulSoup
   
