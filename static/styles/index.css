@@ -1,12 +1,6 @@
 /* screen - index */
 
-.index {
-  background-color: rgba(60,62,78,1.0);
-  height: 1024px;
-  overflow-x: hidden;
-  position: relative;
-  width: 1440px;
-}
+
 
 #bg {
   position: fixed; 
@@ -21,7 +15,7 @@
 .index .grommet-iconshome-C61RwL {
   background-color: transparent;
   height: 39px;
-  left: 1318px;
+  left: 1238px;
   overflow: hidden;
   pointer-events: auto;
   position: absolute;
