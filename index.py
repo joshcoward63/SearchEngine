@@ -34,3 +34,4 @@ def search_query(indexName, search_terms):
     # for hit in res['hits']['hits']:
     #     print("%(page)s: %(page_info)s" % hit["_source"])
     return res['hits']['hits']
+master
