@@ -239,44 +239,9 @@
     <meta name="Jeff Allen" content="" />
 	
   </head>
-  <body style="margin: 0; background: rgba(60, 62, 78, 1)">
-	
-    <div class="container-center-horizontal">
-      <div class="index screen">
-		
-        <img src="static\img\index@1x.svg" id="bg" alt="">
-        <div class="rectangle-2-C61RwL"></div>
-        <div class="grommet-iconshome-C61RwL smart-layers-pointers">
-        <form action = "/" method = "post">  
-          <img class="vector-xM6Xgb" src="static/img/vector-1@2x.svg" />
-          <input class="vector-xM6Xgb" name = "home" type="submit" value =""/>
-        </form>
-		
-        </div>
-		
-        <div class="dropdown">
-            <div class="dropbtn">
-              <img class="vector-rQT0Fu" src="static/img/vector-2@2x.svg" />
-            </div>
-            <div class="dropdown-content">
-              <a href="#">Help</a>
-              <a href="/aboutus">About Us</a>
-              <a href="http://www.boisestate.edu">BSU</a>
-            </div>
-        </div> 
-		
-        <form action = "/search" method = "post">
-            <img class="vector-C61RwL smart-layers-pointers" src="static/img/vector@2x.svg" />
-            <input class="vector-C61RwL smart-layers-pointers" name = "button" value = "" type="submit" />
-          <img class="search-bar-C61RwL" src="static/img/searchbar@1x.png" />
-          <input class="search-bar-text-field-C61RwL" name="srch" placeholder="Search..." type="text" required />
-		  
-        </form> 
-		<div>
-	
-	</div>
-      </div>
-    </div>
-	
+  <body style="margin: 0; background: rgba(255,255,255,255)">
+	{% if processed_text %}
+	<p id="text">{{ processed_text }}</p>
+	{% endif %}
   </body>
 </html>
