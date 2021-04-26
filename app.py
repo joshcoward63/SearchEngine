@@ -5,17 +5,18 @@ import os
 from urlparse import urlparse
 import json
 import requests
+from elastic_app_search import Client
 
-es = Elasticsearch(['https://paas:c240eae6c4c3a57b62b42aa093239dc4@oin-us-east-1.searchly.com'])
-
-res = es.get(index="test-index2", id=1)
-print(res['_source'])
-
-es.indices.refresh(index="test-index2")
+client = Client(
+    base_endpoint='enterprise-search-deployment-d01c1c.ent.us-west1.gcp.cloud.es.io/api/as/v1/',
+    api_key='search-9jxtr7r8frnpk89zuy5sdq7w',
+    use_https=True
+    )
+engine_name = 'team5-search-engine'
 
 app = Flask(__name__)
 
-@app.route("/",methods = ['POST', 'GET'])
+@app.route("/",methods = ['GET', 'POST'])
 def home():
     return render_template("index.html")
 
@@ -23,28 +24,11 @@ def home():
 def result(query):
     return render_template("index.html")
 
-@app.route('/aboutus')
-def aboutus():
-	return render_template("aboutus.html")
-
-@app.route('/search',methods = ['POST', 'GET'])
+@app.route('/search', methods=['POST'])
 def search():
-	if request.method == 'POST':
-		string = request.form['srch']
-		doc = {'size' : 10000, "query" : {"match": {"name" : string}}}
-		res = es.search(index='test-index2', body=doc,scroll='1m')
-		result = "%d" % res['hits']['total']['value']
-		resultText = ''
-		for hit in res['hits']['hits']:
-			resultText += str(hit['_source']['name']) + ': \n'
-		if (result == '0'):
-			return render_template('results.html', processed_text="No results found")
-		else:
-			return render_template('results.html', processed_text=result+" result(s) found\n" +resultText)
-		
-	else:
-		string = request.args.get('srch')
-		return redirect(url_for('result',query = string))
+    keyword = request.form['srch']
+    res = client.search(engine_name, keyword, {"page": {"size": 100}})
+    return render_template('index.html', search_results=res, query=keyword)
 
 if __name__ == "__main__":
 	app.run(host="localhost", port=8000, debug=True)
